@@ -1,0 +1,116 @@
+[0m[0K]0;:/d/risky/kampus/GT/deploy svm[?25l
+[0;32mASUS@LAPTOP-4O8KG0OR [0;35m [0;33m/d/risky/kampus/GT/deploy svm[0m[0K
+$[0K[3G[?25h[?25l$ git push -f origin master[0K[?25h[?25l$ git push -u origin master[0K[?25h[?25l$ git pull[0K[?25h[?25l$ git push -u origin master[0K[?25h[?25l$ git push -f origin master[0K[?25h[?25l$[0K[3G[?25h[?25l$ git push -f origin master[0K[?25h[?25l$ git push -u origin master[0K[?25h[?25l$ git pull[0K[?25h[?25l$ git push origin master[0K[?25h[?25l$ git pull[0K[?25h[?25l$ git push -u origin master[0K[?25h[?25l$ git push -f origin master[0K[?25h[?25l$[0K[3G[?25h[?25l$ curl -X POST -d '{"profit": 3, "jenis_usaha": "culinary", "fisik_usaha": 1, "tenor": 8, "i[0K
+ncome": 4, "expense": 2000000, "tanggungan": "tidak ada", "jenis_kelamin": "Wanita", "instal[0K
+lment": 200000, "proposed_loan": 8, "loan.ratio": 20, "score_gt": 70, "usia": 46, "anggotake[0K
+luargabekerja": "1", "anggotakeluargabelumbekerja": "0", "anggotakeluargabelumbekerja2": "0"[0K
+, "izinusaha": "tidak ada", "jarak": "<1km", "jumlahkamar": "1", "jumlahkaryawan": "0", "tot[0K
+al_aset": 30, "jumlahkendaraanpribadi": "2", "lamausaha": ">5 tahun", "pembukuanusaha": "Tid[0K
+ak Ada", "pendapatansumberlain": "1", "grade.pendidikan": "SMA/SMK atau di bawahnya", "statu[0K
+snilai": "Cerai", "statusrumah": "Cerai Kontrak / sewa / kost", "tipetempatkerja": "Warung ([0K
+Sewa)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[?25h[?25l
+[0K[?25h{"error":["500 - Internal server error"],"message":["Error in .as.factor(jenis_usaha): could[0K[?25l
+not find function \".as.factor\"\n"]}[0K[?25h[?25l
+[0;32mASUS@LAPTOP-4O8KG0OR [0;35m [0;33m/d/risky/kampus/GT/deploy svm[0m[0K
+$[0K[3G[?25h[?25l$ curl -X POST -d '{"profit": 3, "jenis_usaha": "culinary", "fisik_usaha": 1, "tenor": 8, "i[0K
+ncome": 4, "expense": 2000000, "tanggungan": "tidak ada", "jenis_kelamin": "Wanita", "instal[0K
+lment": 200000, "proposed_loan": 8, "loan.ratio": 20, "score_gt": 70, "usia": 46, "anggotake[0K
+luargabekerja": "1", "anggotakeluargabelumbekerja": "0", "anggotakeluargabelumbekerja2": "0"[0K
+, "izinusaha": "tidak ada", "jarak": "<1km", "jumlahkamar": "1", "jumlahkaryawan": "0", "tot[0K
+al_aset": 30, "jumlahkendaraanpribadi": "2", "lamausaha": ">5 tahun", "pembukuanusaha": "Tid[0K
+ak Ada", "pendapatansumberlain": "1", "grade.pendidikan": "SMA/SMK atau di bawahnya", "statu[0K
+snilai": "Cerai", "statusrumah": "Cerai Kontrak / sewa / kost", "tipetempatkerja": "Warung ([0K
+Sewa)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[?25h[?25l
+[0K[?25h{"error":["500 - Internal server error"],"message":["Error in is.factor(x): argument \"statu[0Ks[?25l
+nikah\" is missing, with no default\n"]}[0K[?25h[?25l
+[0;32mASUS@LAPTOP-4O8KG0OR [0;35m [0;33m/d/risky/kampus/GT/deploy svm[0m[0K
+$[0K[3G[?25h[?25l$ curl -X POST -d '{"profit": 3, "jenis_usaha": "culinary", "fisik_usaha": 1, "tenor": 8, "i[0K
+ncome": 4, "expense": 2000000, "tanggungan": "tidak ada", "jenis_kelamin": "Wanita", "instal[0K
+lment": 200000, "proposed_loan": 8, "loan.ratio": 20, "score_gt": 70, "usia": 46, "anggotake[0K
+luargabekerja": "1", "anggotakeluargabelumbekerja": "0", "anggotakeluargabelumbekerja2": "0"[0K
+, "izinusaha": "tidak ada", "jarak": "<1km", "jumlahkamar": "1", "jumlahkaryawan": "0", "tot[0K
+al_aset": 30, "jumlahkendaraanpribadi": "2", "lamausaha": ">5 tahun", "pembukuanusaha": "Tid[0K
+ak Ada", "pendapatansumberlain": "1", "grade.pendidikan": "SMA/SMK atau di bawahnya", "statu[0K
+snilai": "Cerai", "statusrumah": "Cerai Kontrak / sewa / kost", "tipetempatkerja": "Warung ([0K
+Sewa)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[?25h[78G[77G[76G[75G[74G[73G[72G[71G[70G[69G[68G[67G[66G[65G[64G[63G[62G[61G[60G[59G[58G[57G[56G[55G[54G[53G[52G[50G[49G[47G[46G[45G[44G[43G[42G[41G[40G[39G[38G[37G[36G[35G[34G[33G[32G[31G[30G[29G[28G[27G[26G[25G[24G[23G[22G[21G[20G[19G[18G[17G[16G[15G[14G[13G[12G[11G[10G[9G[8G[7G[6G[5G[4G[3G[2G[1G[?25l[1A[92G[?25h[91G[90G[89G[88G[87G[86G[85G[84G[83G[82G[81G[80G[79G[78G[77G[76G[75G[74G[73G[72G[71G[70G[69G[67G[66G[65G[64G[63G[62G[61G[60G[59G[58G[57G[56G[55G[54G[53G[52G[51G[50G[49G[48G[47G[46G[45G[44G[43G[42G[40G[39G[38G[37G[36G[35G[34G[33G[32G[31G[30G[29G[28G[27G[26G[25G[24G[23G[22G[21G[20G[19G[18G[16G[15G[14G[13G[12G[11G[10G[9G[8G[7G[?25lsnila": "Cerai", "statusrumah": "Cerai Kontrak / sewa / kost", "tipetempatkerja": "Warung (S[0K
+ewa)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[1A[6G[?25h[?25lsnil": "Cerai", "statusrumah": "Cerai Kontrak / sewa / kost", "tipetempatkerja": "Warung (Se[0K
+wa)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[1A[5G[?25h[?25lsni": "Cerai", "statusrumah": "Cerai Kontrak / sewa / kost", "tipetempatkerja": "Warung (Sew[0K
+a)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[1A[4G[?25h[?25lsnik": "Cerai", "statusrumah": "Cerai Kontrak / sewa / kost", "tipetempatkerja": "Warung (Se[0K
+wa)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[1A[5G[?25h[?25lsnika": "Cerai", "statusrumah": "Cerai Kontrak / sewa / kost", "tipetempatkerja": "Warung (S[0K
+ewa)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[1A[6G[?25h[?25lsnikah": "Cerai", "statusrumah": "Cerai Kontrak / sewa / kost", "tipetempatkerja": "Warung ([0K
+Sewa)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[1A[7G[?25h[8G[?25l
+
+[0K[?25h{"error":["500 - Internal server error"],"message":["Error in `contrasts<-`(`*tmp*`, value =[0K[?25l
+contr.funs[1 + isOF[nn]]): contrasts can be applied only to factors with 2 or more levels\n"[0K]
+}[0K[?25h[?25l
+[0;32mASUS@LAPTOP-4O8KG0OR [0;35m [0;33m/d/risky/kampus/GT/deploy svm[0m[0K
+$[0K[3G[?25h[?25l
+[0K[?25h[?25l
+[0;32mASUS@LAPTOP-4O8KG0OR [0;35m [0;33m/d/risky/kampus/GT/deploy svm[0m[0K
+$[0K[3G[?25h[?25l$ curl -X POST -d '{"profit": 3, "jenis_usaha": "culinary", "fisik_usaha": 1, "tenor": 8, "i[0K
+ncome": 4, "expense": 2000000, "tanggungan": "tidak ada", "jenis_kelamin": "Wanita", "instal[0K[1G[?25h[?25l
+lment": 200000, "proposed_loan": 8, "loan.ratio": 20, "score_gt": 70, "usia": 46, "anggotake[0K
+luargabekerja": "1", "anggotakeluargabelumbekerja": "0", "anggotakeluargabelumbekerja2": "0"[0K
+, "izinusaha": "tidak ada", "jarak": "<1km", "jumlahkamar": "1", "jumlahkaryawan": "0", "tot[0K
+al_aset": 30, "jumlahkendaraanpribadi": "2", "lamausaha": ">5 tahun", "pembukuanusaha": "Tid[0K
+ak Ada", "pendapatansumberlain": "1", "grade.pendidikan": "SMA/SMK atau di bawahnya", "statu[0K
+snikah": "Cerai", "statusrumah": "Cerai Kontrak / sewa / kost", "tipetempatkerja": "Warung ([0K
+Sewa)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[?25hA[0K[?25lSewa)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[?25hD[0K[?25lSewa)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[?25h[?25l
+[0K[?25h{"prediksi":[]}[0K[?25l
+[0;32mASUS@LAPTOP-4O8KG0OR [0;35m [0;33m/d/risky/kampus/GT/deploy svm[0m[0K
+$[0K[3G[?25h[?25l$ curl -X POST -d '{"profit": 3, "jenis_usaha": "culinary", "fisik_usaha": 1, "tenor": 8, "i[0K
+ncome": 4, "expense": 2000000, "tanggungan": "tidak ada", "jenis_kelamin": "Wanita", "instal[0K
+lment": 200000, "proposed_loan": 8, "loan.ratio": 20, "score_gt": 70, "usia": 46, "anggotake[0K
+luargabekerja": "1", "anggotakeluargabelumbekerja": "0", "anggotakeluargabelumbekerja2": "0"[0K
+, "izinusaha": "tidak ada", "jarak": "<1km", "jumlahkamar": "1", "jumlahkaryawan": "0", "tot[0K
+al_aset": 30, "jumlahkendaraanpribadi": "2", "lamausaha": ">5 tahun", "pembukuanusaha": "Tid[0K
+ak Ada", "pendapatansumberlain": "1", "grade.pendidikan": "SMA/SMK atau di bawahnya", "statu[0K
+snikah": "Cerai", "statusrumah": "Cerai Kontrak / sewa / kost", "tipetempatkerja": "Warung ([0K
+Sewa)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[1G[?25h[79G[?25l[8A$[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+snikah": "Cerai", "statusrumah": "Cerai Kontrak / sewa / kost", "tipetempatkerja": "Warung ([0K
+Sewa)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[1A[?25h[0K[?25l
+[0K[8A[3G[?25h[?25l$ curl -X POST -d '{"profit": 3, "jenis_usaha": "culinary", "fisik_usaha": 1, "tenor": 8, "i[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[8A[3G[?25h[?25l
+ncome": 4, "expense": 2000000, "tanggungan": "tidak ada", "jenis_kelamin": "Wanita", "instal[0K
+lment": 200000, "proposed_loan": 8, "loan.ratio": 20, "score_gt": 70, "usia": 46, "anggotake[0K
+luargabekerja": "1", "anggotakeluargabelumbekerja": "0", "anggotakeluargabelumbekerja2": "0"[0K
+, "izinusaha": "tidak ada", "jarak": "<1km", "jumlahkamar": "1", "jumlahkaryawan": "0", "tot[0K
+al_aset": 30, "jumlahkendaraanpribadi": "2", "lamausaha": ">5 tahun", "pembukuanusaha": "Tid[0K
+ak Ada", "pendapatansumberlain": "1", "grade.pendidikan": "SMA/SMK atau di bawahnya", "statu[0K
+snikah": "Cerai", "statusrumah": "Cerai Kontrak / sewa / kost", "tipetempatkerja": "Warung ([0K
+Sewa)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[?25h[?25l
+[0K[?25h{"prediksi":[]}[0K[?25l
+[0;32mASUS@LAPTOP-4O8KG0OR [0;35m [0;33m/d/risky/kampus/GT/deploy svm[0m[0K
+$[0K[3G[?25h[?25l$ curl -X POST -d '{"profit": 3, "jenis_usaha": "culinary", "fisik_usaha": 1, "tenor": 8, "i[0K
+ncome": 4, "expense": 2000000, "tanggungan": "tidak ada", "jenis_kelamin": "Wanita", "instal[0K
+lment": 200000, "proposed_loan": 8, "loan.ratio": 20, "score_gt": 70, "usia": 46, "anggotake[0K
+luargabekerja": "1", "anggotakeluargabelumbekerja": "0", "anggotakeluargabelumbekerja2": "0"[0K
+, "izinusaha": "tidak ada", "jarak": "<1km", "jumlahkamar": "1", "jumlahkaryawan": "0", "tot[0K
+al_aset": 30, "jumlahkendaraanpribadi": "2", "lamausaha": ">5 tahun", "pembukuanusaha": "Tid[0K
+ak Ada", "pendapatansumberlain": "1", "grade.pendidikan": "SMA/SMK atau di bawahnya", "statu[0K
+snikah": "Cerai", "statusrumah": "Cerai Kontrak / sewa / kost", "tipetempatkerja": "Warung ([0K
+Sewa)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[?25h[78G[77G[76G[75G[74G[73G[72G[71G[70G[69G[68G[67G[66G[65G[63G[62G[60G[59G[57G[56G[55G[54G[53G[52G[51G[50G[48G[47G[46G[45G[44G[42G[41G[40G[39G[38G[37G[36G[35G[34G[33G[32G[31G[30G[29G[28G[27G[26G[25G[24G[23G[22G[21G[20G[19G[18G[17G[16G[15G[14G[12G[11G[10G[9G[8G[7G[6G[5G[4G[3G[2G[1G[?25l[1A[92G[?25h[91G[90G[89G[88G[87G[85G[84G[83G[82G[81G[80G[79G[78G[77G[76G[75G[74G[73G[72G[71G[69G[68G[67G[66G[65G[64G[63G[62G[61G[60G[59G[58G[57G[56G[55G[54G[53G[52G[51G[50G[49G[48G[47G[45G[44G[42G[41G[39G[38G[37G[38G[39G[40G[41G[?25lsnikah": "Cerai", "statusrumah": "CeraiKontrak / sewa / kost", "tipetempatkerja": "Warung (S[0K
+Sewa)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[1A[41G[?25h[?25l
+ewa)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[1A[40G[?25h[?25lsnikah": "Cerai", "statusrumah": "CeraKontrak / sewa / kost", "tipetempatkerja": "Warung (Se[0K
+wa)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[1A[39G[?25h[?25lsnikah": "Cerai", "statusrumah": "CerKontrak / sewa / kost", "tipetempatkerja": "Warung (Sew[0K
+a)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[1A[38G[?25h[?25lsnikah": "Cerai", "statusrumah": "CeKontrak / sewa / kost", "tipetempatkerja": "Warung (Sewa[0K
+)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[1A[37G[?25h[?25lsnikah": "Cerai", "statusrumah": "CKontrak / sewa / kost", "tipetempatkerja": "Warung (Sewa)[0K
+", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[1A[36G[?25h[?25lsnikah": "Cerai", "statusrumah": "Kontrak / sewa / kost", "tipetempatkerja": "Warung (Sewa)"[0K
+, "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[1A[35G[?25h[36G[37G[38G[39G[40G[?25l
+
+[0K[?25h{"prediksi":["tidak bermasalah"]}[0K[?25l
+[0;32mASUS@LAPTOP-4O8KG0OR [0;35m [0;33m/d/risky/kampus/GT/deploy svm[0m[0K
+$[0K[3G[?25h
