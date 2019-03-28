@@ -113,4 +113,35 @@ a)", "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K
 
 [0K[?25h{"prediksi":["tidak bermasalah"]}[0K[?25l
 [0;32mASUS@LAPTOP-4O8KG0OR [0;35m [0;33m/d/risky/kampus/GT/deploy svm[0m[0K
+]0;:/d/risky/kampus/GT/deploy svm[?25l
+[0;32mASUS@LAPTOP-4O8KG0OR [0;35m [0;33m/d/risky/kampus/GT/deploy svm[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ if [ $# -eq 0 ]; then   echo "Start interactive shell";   exec "$BASH" --login -i; else[0K
+echo "Start shell with command";   exec "$BASH" -c "$*"; fi[0K[?25h[?25l[1A$ export -f docker[0K
+[0K[1A[19G[?25h[?25l$ if [ $# -eq 0 ]; then   echo "Start interactive shell";   exec "$BASH" --login -i; else[0K
+echo "Start shell with command";   exec "$BASH" -c "$*"; fi[0K[?25h[?25l[1A$[0K
+[0K[1A[3G[?25h[?25l$ c[0K
+[0K[1A[3G[?25h[4G[?25l$ curl -X POST -d '{"profit": 3, "jenis_usaha": "culinary", "fisik_usaha": 1, "tenor": 8, "i[0K
+ncome": 4, "expense": 2000000, "tanggungan": "tidak ada", "jenis_kelamin": "Wanita", "instal[0K
+lment": 200000, "proposed_loan": 8, "loan.ratio": 20, "score_gt": 70, "usia": 46, "anggotake[0K
+luargabekerja": "1", "anggotakeluargabelumbekerja": "0", "anggotakeluargabelumbekerja2": "0"[0K
+, "izinusaha": "tidak ada", "jarak": "<1km", "jumlahkamar": "1", "jumlahkaryawan": "0", "tot[0K
+al_aset": 30, "jumlahkendaraanpribadi": "2", "lamausaha": ">5 tahun", "pembukuanusaha": "Tid[0K
+ak Ada", "pendapatansumberlain": "1", "grade.pendidikan": "SMA/SMK atau di bawahnya", "statu[0K
+snikah": "Cerai", "statusrumah": "Kontrak / sewa / kost", "tipetempatkerja": "Warung (Sewa)"[0K
+, "oer": 40}' -H 'Content-Type: application/json' localhost:8000/predict[0K[?25h[72G[71G[70G[69G[68G[67G[66G[65G[?25l, "oer": 40}' -H 'Content-Type: application/json' localhost:800/predict[0K[64G[?25h[?25l, "oer": 40}' -H 'Content-Type: application/json' localhost:80/predict[0K[63G[?25h[?25l
+[0K[?25h[?25lcurl: (7) Failed to connect to localhost port 80: Connection refu[0K[64G[?25h[?25lcurl: (7) Failed to connect to localhost port 80: Connection refused[0K
+[0K[?25h[?25l
+[0;32mASUS@LAPTOP-4O8KG0OR [0;35m [0;33m/d/risky/kampus/GT/deploy svm[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ curl -X POST -d '{"profit": 3, "jenis_usaha": "culinary", "fisik_usaha": 1, "tenor": 8, "i[0K
+ncome": 4, "expense": 2000000, "tanggungan": "tidak ada", "jenis_kelamin": "Wanita", "instal[0K
+lment": 200000, "proposed_loan": 8, "loan.ratio": 20, "score_gt": 70, "usia": 46, "anggotake[0K
+luargabekerja": "1", "anggotakeluargabelumbekerja": "0", "anggotakeluargabelumbekerja2": "0"[0K
+, "izinusaha": "tidak ada", "jarak": "<1km", "jumlahkamar": "1", "jumlahkaryawan": "0", "tot[0K
+al_aset": 30, "jumlahkendaraanpribadi": "2", "lamausaha": ">5 tahun", "pembukuanusaha": "Tid[0K
+ak Ada", "pendapatansumberlain": "1", "grade.pendidikan": "SMA/SMK atau di bawahnya", "statu[0K
+snikah": "Cerai", "statusrumah": "Kontrak / sewa / kost", "tipetempatkerja": "Warung (Sewa)"[0K
+, "oer": 40}' -H 'Content-Type: application/json' localhost:80/predict[0K[?25h[70G[69G[68G[67G[66G[65G[63G[62G[61G[60G[59G[58G[57G[56G[55G[54G[53G[52G[51G[50G[49G[48G[47G[46G[45G[44G[43G[42G[41G[40G[39G[38G[37G[36G[35G[34G[33G[32G[31G[32G[33G[34G[35G[36G[37G[38G[39G[40G[42G[43G[45G[46G[47G[48G[49G[50G[51G[52G[53G[54G[55G[56G[57G[58G[59G[60G[61G[62G[63G[64G[65G[66G[67G[68G[69G[70G[71G[?25l
+[0K[?25hcurl: (7) Failed to connect to localhost port 80: Connection refused[0K[?25l
+[0K[?25h[?25l
+[0;32mASUS@LAPTOP-4O8KG0OR [0;35m [0;33m/d/risky/kampus/GT/deploy svm[0;36m (master)[0m[0K
 $[0K[3G[?25h
