@@ -5,6 +5,7 @@ RUN apt-get update -qq && apt-get install -y \
 RUN R -e "install.packages('plumber')"
 RUN R -e "install.packages('e1071')"
 RUN R -e "install.packages('jsonlite')"
+RUN R -e "install.packages('data.table')"
 # copy everything from the current directory into the container
 COPY / /
 # open port 80 to traffic
