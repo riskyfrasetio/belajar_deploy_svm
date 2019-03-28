@@ -1,5 +1,6 @@
 library(jsonlite)
 library(e1071)
+library(data.table)
 load("model_svm.RData")
 #* @post /predict
 predict.class=function(profit,jenis_usaha,fisik_usaha,tenor,income,expense,tanggungan,jenis_kelamin,installment,proposed_loan,loan.ratio,score_gt,usia,anggotakeluargabekerja,anggotakeluargabelumbekerja,anggotakeluargabelumbekerja2,izinusaha,jarak,jumlahkamar,jumlahkaryawan,total_aset,jumlahkendaraanpribadi,lamausaha,pembukuanusaha,pendapatansumberlain,grade.pendidikan,statusnikah,statusrumah,tipetempatkerja,oer){
