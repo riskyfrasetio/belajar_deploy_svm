@@ -1,5 +1,7 @@
 FROM rocker/r-ver:3.5.0
-RUN apt-get install libcurl4-openssl-dev
+RUN apt-get update -qq && apt-get install -y \
+      libssl-dev \
+      libcurl4-gnutls-dev
 RUN R -e "install.packages('plumber')"
 # copy everything from the current directory into the container
 COPY / /
